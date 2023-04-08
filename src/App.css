@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@media (prefers-color-scheme: light) {
+  :root {
+    --color1: #ffa69e;
+    --color2: #faf3dd;
+    --color3: #b8f2e6;
+    --color4: #aed9e0;
+    --color5: #5e6472;
+  }
+}
+/* @media (prefers-color-scheme: dark) {
+    :root{
+        --color1:#F2CC8F;
+        --color2:#81B29A;
+        --color3:#3D405B;
+        --color4:#E07A5F;
+        --color5:#F4F1DE;
+    }
+    
+} */
+:root {
+  --color1: #ffa69e;
+  --color2: #faf3dd;
+  --color3: #b8f2e6;
+  --color4: #aed9e0;
+  --color5: #5e6472;
+}
+* {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+#App {
+  background-color: var(--color1);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+#Chat {
+  background-color: var(--color4);
+  width: 50vw;
+  height: 100vh;
+}
+#Animation {
+  background-color: var(--color5);
+  width: 50vw;
+  height: 100vh;
+}
